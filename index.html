@@ -7,27 +7,31 @@
     <link rel="stylesheet" href="netflix/index.css">
 </head>
 <body>
-    <div class="header-page">
-        <nav>
-          <img class="logo" src="netflix/images/logo.png">
-          <select>
-            <option style="color:black">English</option>
-            <option style="color:black">Hindi</option>
-            </select>
-          <button>Sign Up</button>
+    <header class="header-page">
+        <nav class="navbar">
+          <div class="logo"><img  src="netflix/images/logo.png"></div>
+            <div class="buttons">
+                <select>
+                    <option style="color:black">English</option>
+                    <option style="color:black">Hindi</option>
+                    </select>
+                  <button>Sign Up</button>
+            </div>
         </nav>
-        <div class="content">
-          <h1>Unlimited movies, TV shows and more</h1>
-          <h3>Watch anywhere. Cancel anytime.</h3>
-          <p>Ready to watch? Enter your email to create or restart your membership.</p>
-          <form class="email-signup">
-            <input type="email" required placeholder="Email Address">
-            <button type="submit">Get Started</button>
-          </form>
+        <div class="content-container">
+            <div class="content">
+                <h1>Unlimited movies, TV shows and more</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+                <form class="email-signup">
+                    <input type="email" required placeholder="Email Address">
+                    <button type="submit">Get Started</button>
+                </form>
         </div>
-    </div>
+    </header>
     <hr>
-    <div class="features">
+    <section class="features">
         
             <div class="feature-container">
                 <div class="desc">
@@ -64,10 +68,10 @@
                     <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
                 </div>
             </div>
-    </div>
+    </section>
     <hr>
-      <div class="faq">
-        <h2>Frequently Asked Quesitons</h2>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
         <ul class="faq-container">
             <li>
                 <input type="radio" name="fq" id="faq1">
@@ -90,7 +94,7 @@
                 <div class="answer">
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
 
-You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
                 </div>
             </li>
             <li>
@@ -106,12 +110,12 @@ You can also download your favourite shows with the iOS, Android, or Windows 10 
             <input type="email" required placeholder="Email Address">
             <button>Get Started</button>
         </form>
-    </div>
+    </section>
     <hr>
-    <div class="questions">
+    <footer class="questions">
         <p>Questions? Call <a href="#">000-800-919-1694</a></p>
         <div class="links">
-            <a href="#jdfksd">FAQ</a>
+            <a href="#">FAQ</a>
             <a href="#">Help Centre</a>
             <a href="#">Account</a>
             <a href="#">Media Centre</a>
@@ -122,6 +126,6 @@ You can also download your favourite shows with the iOS, Android, or Windows 10 
             <a href="#">Contact Us</a>
         </div>
         <p class="last">Netflix India</p>
-    </div>
+    </footer>
 </body>
 </html>
