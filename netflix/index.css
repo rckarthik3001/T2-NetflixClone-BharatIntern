@@ -235,6 +235,9 @@ footer .last{
 .logo{
   width:100px;
 }
+.content-container{
+  margin-top:100px;
+}
 .feature-container{
   flex-direction: column;
   height:60vh;
